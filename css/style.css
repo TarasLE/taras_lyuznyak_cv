@@ -22,7 +22,6 @@ body {
 }
 .sidebar {
   background: #1e2939;
-  /* background: #daf7a6; */
   width: 370px;
   padding-bottom: 40px;
 }
@@ -30,10 +29,10 @@ body {
   width: 370px;
 }
 .about-me-container {
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 
 .contacts-container {
@@ -51,7 +50,6 @@ body {
 }
 
 .contacts-link {
-  /* border: 1px solid; */
   display: flex;
   font-size: 14px;
   font-weight: 400;
@@ -61,15 +59,15 @@ body {
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* align-items: center; */
 }
 .projects-link {
+  padding-left: 3px;
+  padding-right: 3px;
   min-width: max-content;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #595959;
-  text-decoration: none;
+  color: #2b2b2b;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -79,16 +77,7 @@ body {
 .contacts-link:focus,
 .projects-link:focus {
   color: #2196f3;
-  /* color: #ff6b08; */
 }
-
-/* .contacts-link-type {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #fff;
-  margin-right: 10px;
-} */
 
 .skills-title {
   font-size: 22px;
@@ -119,6 +108,7 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 23px;
+  color: #ff6b08;
 }
 
 .name {
@@ -149,7 +139,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #595959;
+  color: #2b2b2b;
 }
 .tech-block {
   display: flex;
@@ -158,11 +148,11 @@ body {
 
 .project-item {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2b2b2b;
   font-weight: 700;
-  margin-left: 17px;
 }
 
 .project-container {
@@ -184,7 +174,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
-  color: #a8a8a8;
+  color: #2b2b2b;
 }
 
 .profession-divider {
@@ -199,7 +189,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #595959;
+  color: #2b2b2b;
+  margin-left: 15px;
 }
 
 .education {
@@ -237,4 +228,8 @@ body {
   height: 17px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.aboutme-list {
+  margin-left: 15px;
 }
