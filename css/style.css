@@ -9,10 +9,8 @@ body {
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
-
   font-family: Montserrat;
 }
-
 .wrapper {
   background: #fff;
   display: flex;
@@ -34,13 +32,11 @@ body {
   margin-top: 110px;
   margin-bottom: 110px;
 }
-
 .contacts-container {
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
 }
-
 .contacts-title {
   font-size: 22px;
   font-weight: 700;
@@ -48,7 +44,6 @@ body {
   color: #fff;
   margin-bottom: 20px;
 }
-
 .contacts-link {
   display: flex;
   font-size: 14px;
@@ -71,14 +66,12 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contacts-link:hover,
 .projects-link:hover,
 .contacts-link:focus,
 .projects-link:focus {
   color: #2196f3;
 }
-
 .skills-title {
   font-size: 22px;
   font-weight: 700;
@@ -95,14 +88,12 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-
   margin-left: 15px;
   color: #ff6b08;
 }
 .skills-text {
   color: #d8dadd;
 }
-
 .profession {
   font-size: 20px;
   font-weight: 700;
@@ -110,14 +101,12 @@ body {
   margin-bottom: 23px;
   color: #ff6b08;
 }
-
 .name {
   font-size: 45px;
   font-weight: 700;
   line-height: 89px;
   margin-top: 24px;
 }
-
 .description {
   font-size: 14px;
   font-weight: 400;
@@ -127,14 +116,12 @@ body {
 .Info-container {
   margin-bottom: 65px;
 }
-
 .about-me-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
 }
-
 .tech-name {
   font-size: 14px;
   font-weight: 400;
@@ -145,7 +132,6 @@ body {
   display: flex;
   min-width: max-content;
 }
-
 .project-item {
   display: flex;
   font-size: 14px;
@@ -154,11 +140,9 @@ body {
   color: #2b2b2b;
   font-weight: 700;
 }
-
 .project-container {
   margin-bottom: 55px;
 }
-
 .profession-title {
   font-size: 16px;
   font-weight: 700;
@@ -169,14 +153,12 @@ body {
 .profession-company {
   color: #ff7011;
 }
-
 .profession-period {
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   color: #2b2b2b;
 }
-
 .profession-divider {
   color: #000000;
 }
@@ -184,7 +166,6 @@ body {
   margin-top: 14px;
   margin-bottom: 30px;
 }
-
 .professional-duties-item {
   font-size: 14px;
   font-weight: 400;
@@ -192,7 +173,6 @@ body {
   color: #2b2b2b;
   margin-left: 15px;
 }
-
 .education {
   color: #ff6b08;
   font-size: 16px;
@@ -209,7 +189,6 @@ body {
   margin-top: 15px;
   margin-bottom: 14px;
 }
-
 .underline {
   height: 1px;
   background-color: rgba(157, 164, 189, 0.6);
@@ -218,18 +197,15 @@ body {
   margin-right: 5px;
   margin-top: 8px;
 }
-
 .contacts-list {
   list-style: none;
 }
-
 .icon {
   width: 17px;
   height: 17px;
   margin-right: 10px;
   fill: currentColor;
 }
-
 .aboutme-list {
   margin-left: 15px;
 }
