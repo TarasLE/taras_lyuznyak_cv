@@ -67,10 +67,16 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.projects-link-visual {
+  text-decoration: none;
+  color: #2b2b2b;
+}
 .contacts-link:hover,
 .projects-link:hover,
+.projects-link-visual:hover,
 .contacts-link:focus,
-.projects-link:focus {
+.projects-link:focus,
+.projects-link-visual:focus {
   color: #2196f3;
 }
 .skills-title {
@@ -212,7 +218,4 @@ body {
 .aboutme-list {
   margin-left: 15px;
 }
-.projects-link-visual {
-  text-decoration: none;
-  color: #2b2b2b;
-}
+
