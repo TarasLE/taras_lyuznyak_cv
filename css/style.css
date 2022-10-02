@@ -24,7 +24,7 @@ body {
   padding-bottom: 40px;
 }
 .my-photo {
-  height: 310px;
+  height: 330px;
   width: 100%;
   object-fit: cover;
 }
@@ -36,7 +36,7 @@ body {
   /* border: 1px solid green; */
 }
 .contacts-container {
-  margin-top: 60px;
+  margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
 }
