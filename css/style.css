@@ -24,7 +24,9 @@ body {
   padding-bottom: 40px;
 }
 .my-photo {
-  width: 370px;
+  height: 310px;
+  width: 100%;
+  object-fit: cover;
 }
 .about-me-container {
   margin-left: 90px;
